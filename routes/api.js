@@ -76,6 +76,7 @@ router.post('/api/register', async (req, res) => {
 })
 
 router.post('/api/login', async (req, res) => {
+  console.log('h')
   if (!req.body.username || !req.body.password) {
     return res.redirect(`/login?err=${encodeURIComponent('You did not put the required values.')}`)
   }
@@ -108,6 +109,8 @@ router.post('/api/login', async (req, res) => {
   res.cookie(`_foodify_account_auth`, cookie, {
     signed: true
   })
+
+  res.redirect('/')
 })
 
 router.get('/api/logout', (req, res)=>{

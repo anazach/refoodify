@@ -5,10 +5,11 @@ class App extends React.Component {
   render() {
     return <>
 			<link rel="stylesheet" href="/public/styles/login.css" />
+      
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+      
       <div className="App">
-        <h1>Foodify Login</h1>
+        <h1 className="title">Foodify</h1>
 
         <br/>
 
@@ -23,7 +24,7 @@ class App extends React.Component {
 
           <br/><br/>
 
-          <a href="/register">Don't have an account? Go register now!</a><br/><br/>
+          <p className="m-3" >Don't have an account?<a href="/register"> Go register now!</a></p>
           
           <p id="error"></p>
           <input type="submit" value="Login" />
