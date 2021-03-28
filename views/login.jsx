@@ -5,16 +5,17 @@ class App extends React.Component {
   render() {
     return <>
 			<link rel="stylesheet" href="/public/styles/login.css" />
-      
+      <link rel="icon" href="/public/images/food.svg"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       
       <div className="App">
         <h1 className="title">Foodify</h1>
-
+        {/* <img className="pb-3" src="/public/images/food.svg" alt="logo" />*/}
         <br/>
 
         <form method="POST" action="/api/login">
           <label htmlFor="username">Username or Email <required/></label><br/>
+          
           <input type="text" name="username" required/>
 
           <br/><br/>
@@ -37,3 +38,4 @@ class App extends React.Component {
 }
 
 export default App;
+

@@ -1,0 +1,13 @@
+body{
+  background: #EBEDFF !important; 
+}
+
+.btn-purple{
+  background-color: #273297 !important;
+  color: #FFFFFF !important;
+}
+
+.card{
+  border-radius: 1rem !important;
+  box-shadow: 2px 3px #888888;
+}
