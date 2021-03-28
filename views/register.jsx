@@ -5,6 +5,8 @@ class App extends React.Component {
   render() {
     return <>
 			<link rel="stylesheet" href="/public/styles/login.css" />
+       <link rel="icon" href="/public/images/food.svg"/>
+       
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       <div className="App">

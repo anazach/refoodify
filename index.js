@@ -33,16 +33,16 @@ app.get('/login', (req, res)=>{
     return res.redirect('/')
   }
 
-  res.render('login');
+  res.redirect('/login')
 })
 
 
 // testing purposes
-app.get('/test', (req, res)=>{
-  res.cookie(`_foodify_account_auth`, `test`)
+// app.get('/test', (req, res)=>{
+//   res.cookie(`_foodify_account_auth`, `test`)
 
-  res.redirect('/')
-})
+//   res.redirect('/')
+// })
 
 app.get('/register', (req, res)=>{
   // if(res.signedCookies['_foodify_account_auth']){

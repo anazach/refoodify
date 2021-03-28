@@ -11,7 +11,7 @@ body{
 
 .App{
   text-align: center;
-  
+  background-image: url('public/images/food.svg');
 
 }
 
@@ -21,13 +21,16 @@ body{
   font-family: 'Roboto Slab', serif;
   font-weight: 500;
   padding-top:5rem;
-  padding-bottom:5rem;
+  padding-bottom:3rem;
 }
 
 /* Padding */
 
 .m-3{
   margin:5rem !important;
+}
+.pb-3{
+   padding-bottom:3rem;
 }
 
 form input{
