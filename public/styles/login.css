@@ -3,9 +3,9 @@
 }
 
 body{
-  background: #b92b27;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #EBEDFF;  /* fallback for old browsers */
+ // background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+ // background: linear-gradient(to top, #1565C0, #b92b27); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
 
 }
 
@@ -13,6 +13,21 @@ body{
   text-align: center;
   
 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+.title{
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  padding-top:5rem;
+  padding-bottom:5rem;
+}
+
+/* Padding */
+
+.m-3{
+  margin:5rem !important;
 }
 
 form input{
