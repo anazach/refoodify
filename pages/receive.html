@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refoodify</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <link rel="icon" href="./images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href="../styles/receive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="container mt-5 pt-5 ">
+        <h3 class="text-center pb-3 mb-3">Available near me</h3>
+        <div class="pb-3 search-bar mb-3">
+            <input  class="form-control me-2 " type="search" aria-label="Search" />
+            <button id="btn-nearest" onclick="toggle1();" class="btn btn-nearest btn-black px-3" type="submit">Nearest</button>
+            <button id="btn-latest" onclick="toggle2();" class="btn btn-latest px-3 " type="submit">Latest</button>
+            <img class="search-icon" src="../images/search-icon.svg" alt="search-icon" />
+        </div>
+        <div id="nearest" class="container">
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Pizza hut</h6>
+                            <p class="card-text">Pizza Hut Sheerwood
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            3 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Soft drink</h6>
+                            <p class="card-text"> Cornbread Cafe
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            7 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Ceasar salad</h6>
+                            <p class="card-text"> Aviv
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            23 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Vegan Burger</h6>
+                            <p class="card-text"> Ichiza kitchen
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            22 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="latest" class="container d-none">
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Burger</h6>
+                            <p class="card-text">Mr Hamburger 
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            0.5 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Coffee Latte</h6>
+                            <p class="card-text"> Caffee Los Dolces
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            2 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Brownie</h6>
+                            <p class="card-text"> Rodeo Drive Restaurant
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            5 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-6">
+                            <h6>Vegan Burger</h6>
+                            <p class="card-text"> Croissant
+                            </p>
+                        </div>
+                        <div class="col-3 pt-3 green">
+                            7 km
+                        </div>
+                        <div class="col-3 pt-2">
+                            <img src="../images/check.svg" alt="check" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../js/receive.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
