@@ -7,6 +7,7 @@ let y = document.getElementById("latest");
 let butX = document.getElementById("btn-nearest");
 let butY = document.getElementById("btn-latest");
 
+let search = document.getElementById('search-icon')
 
 const toggle1 = () => {
 
@@ -28,4 +29,12 @@ const toggle2 = () => {
     butY.classList.add("btn-black");
 
   }
+}
+
+const light = () => {
+  search.classList.add('d-none');
+}
+
+const dark = () => {
+search.classList.remove('d-none');
 }
