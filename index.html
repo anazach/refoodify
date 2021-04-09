@@ -5,17 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Refoodify</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
     <link href="./styles/index.css" rel="stylesheet" />
+    <link rel="icon" href="./images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container mt-5 pt-5 ">
+        <h3 class="text-center pb-5 mb-5">Sign up</h3>
+        <div class="row pt-md-5 mt-md-5">
+            <div class="mb-3 col-md-6 col-12">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3 col-md-6 col-12">
+                <label for="exampleInputEmail1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+                <div id="emailHelp" class="form-text">We'll never share your password with anyone else.</div>
+            </div>
+            <div class="mb-3 col-md-6 col-12">
+                <label for="exampleInputEmail1" class="form-label">Username</label>
+                <input type="email" class="form-control" id="username">
+            </div>
+            <div class="mb-3 col-md-6 col-12">
+                <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                <input type="email" class="form-control" id="fullName">
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto mt-md-5 mt-3">
+                <button onclick="signUp();" class="btn btn-success rounded-pill" type="button">Sign up</button>
+            </div>
+        </div>
+    </div>
 
 
 
-
+    <script src="./js/signUp.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>

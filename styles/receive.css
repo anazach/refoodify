@@ -1,0 +1,45 @@
+.card {
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(52, 40, 135, 0.2);
+}
+
+.search-icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar>input {
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+    border: none;
+}
+
+.btn-nearest {
+    position: absolute;
+    top: 0;
+    right: 76px;
+}
+
+.btn-nearest, .btn-latest {
+    border-radius: 14px;
+}
+
+.btn-latest {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.btn-black, .btn-black:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.green {
+    color: #027E2A;
+}
