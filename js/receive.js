@@ -1,5 +1,44 @@
 
-
+nearest = [{
+  type: 'pizza hut',
+  distance: '3 km',
+  place: 'Pizza Hut Sheerwood'
+},
+{
+  type: 'Soft drink',
+  distance: '7 km',
+  place: 'Cornbread Cafe'
+},
+{
+  type: 'Ceasar salad',
+  distance: '23 km',
+  place: 'Aviv'
+},
+{
+  type: 'Vegan Burger',
+  distance: '22 km',
+  place: 'Ichiza kitchen'
+},
+{
+  type: 'Burger',
+  distance: '0.5 km',
+  place: 'Mr Hamburger'
+},
+{
+  type: 'Coffee Latte',
+  distance: '3km',
+  place: ''
+},
+{
+  type: 'Brownie',
+  distance: '5 km',
+  place: ''
+},
+{
+  type: 'Vegan Burger',
+  distance: '3km',
+  place: ''
+}]
 
 let x = document.getElementById("nearest");
 let y = document.getElementById("latest");
